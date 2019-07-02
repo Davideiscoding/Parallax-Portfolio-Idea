@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> D/C </title>
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<header data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div id="overlay">
+	<nav id="myScrollspy" class= "cl-effect-14 navbar">
+	<div>
+			<a class="header" href="#intro">Intro</a>
+			<a class="header" href="#about">About</a>
+			<a class="header" href="#projects">Projects</a>
+			<a class="header" href="#contact-form">Contact</a>
+	</div>
+	</nav>
+</div>
+</header>
+
+
+
+<div id="intro"></div>
+
+<div class="parallax">
+	<div>
+		<video class="rotate" autoplay muted loop>
+			<source src="rotating.mp4" type="video/mp4"></source>
+		</video>
+	</div>
+</div>
+
+	<div id="about">
+    <img id="bio" src="Seal1.jpg" data-aos="fade-right"/> <!--Change Seal image into a picture of yourself with the same height as the h3 + span element -->
+    <h3 data-aos="fade-left">Biography</h3>
+    <p id="text" data-aos="fade-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
+			<br/>
+			<br/>
+			 </p>
+	</div>
+
+
+	<div id="projects">
+		<h3 data-aos="fade-up">Projects</h3>
+		<img id="project_1" src="Flowa_preview.png" />
+	</div>
+
+	<div id="background">
+		<video class="black" autoplay muted loop>
+			<source src="recordplayer.mp4" type="video/mp4"></source>
+		</video>
+	</div>
+</div>
+
+	<div id="contact-form">
+ 		<div id="form-wrapper">
+ 			<form>
+ 				<div id="form">
+ 					<h2 data-aos="fade-down">Let's get in touch!</h2>
+ 						<div class="input-name" data-aos="fade-down-right">
+ 							<label for="name">Name:</label><br>
+	        		<input type="text" name="name" id="name" class="required">
+	        	</div><!--end-->
+
+	        	<div class="input-email" data-aos="fade-down-left">
+	        		<label for="email">Email:</label><br>
+	        		<input type="text" name="email" id="email" class="required">
+	        	</div><!--end-->
+
+	        		<div class="input-message">
+	        		<textarea data-aos="fade-up-right" placeholder="Enter your message here..." name="message" id="message" rows="8"></textarea>
+	        		</div><!--end-->
+
+	        		<div class="click-submit" data-aos="fade-up">
+ 						<p><input type="submit" name="submit" class="submit" id="submit" value="Send"></p>
+ 							</div><!--end-->
+ 		 <!-- end form -->
+ 		 		</div>
+ 			</form>
+ 			</div>
+ 		</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  			crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="velocity.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+<footer class="footer fadeInBlock">
+
+ <div class="social" id="github">
+	<a href="">
+	<img src="Icons/github.png">
+	</a>
+ </div>
+
+ <div class="social" id="twitter">
+	<a href="">
+	<img src="Icons/twitter.png">
+	</a>
+ </div>
+
+ <div class="social" id="linkedin">
+	<a href="">
+	<img src="Icons/linkedin.png">
+	</a>
+</div>
+
+
+</footer>
+
+</div>
+</html>
